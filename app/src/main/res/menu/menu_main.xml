@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_products">
+        <menu>
+            <item
+                android:id="@+id/nav_netverify"
+                android:title="@string/section_netverify" />
+            <item
+                android:id="@+id/nav_netverify_custom"
+                android:title="@string/section_netverify_custom" />
+        </menu>
+    </item>
+
+    <!--<item android:title="@string/menu_legal_information">
+        <menu>
+            <item
+                android:id="@+id/nav_terms_conditions"
+                android:icon="@drawable/ic_info"
+                android:title="@string/menu_terms_conditions" />
+            <item
+                android:id="@+id/nav_licenses"
+                android:icon="@drawable/ic_licenses"
+                android:title="@string/menu_licenses" />
+        </menu>
+    </item>-->
+
+    <!--<item android:title="@string/menu_version">
+        <menu>
+            <item
+                android:id="@+id/nav_sdk"
+                android:title=""/>
+        </menu>
+
+    </item>-->
+</menu>
